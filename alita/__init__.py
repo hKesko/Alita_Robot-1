@@ -60,8 +60,8 @@ if version_info[0] < 3 or version_info[1] < 7:
 try:
     if environ.get("ENV"):
         from alita.vars import Config
-    else:
-        from alita.local_vars import Development as Config
+#     else:
+#         from alita.local_vars import Development as Config
 except Exception as ef:
     LOGGER.error(ef)  # Print Error
     LOGGER.error(format_exc())
