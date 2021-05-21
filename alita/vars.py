@@ -52,21 +52,21 @@ class Development:
 
     # Fill in these vars if you want to use Traditional method of deploying
     LOGGER = True
-    STRING_SESSION = "YOUR STRING_SESSION"
-    APP_ID = 12345  # Your APP_ID from Telegram
-    API_HASH = "YOUR TOKEN"  # Your APP_HASH from Telegram
-    OWNER_ID = 12345  # Your telegram user id
-    MESSAGE_DUMP = -100  # Your Private Group ID
-    DEV_USERS = []
+    TOKEN = "1445874202:AAHKz4NjFw7OTOg13TZYyqKRMPzK1sp9aVM"
+    APP_ID = 2671152  # Your APP_ID - int value
+    API_HASH = "ed66f2ed9dca468b6bc73a3c02f86287"
+    OWNER_ID = "1364522295"
+    MESSAGE_DUMP = "-1001461406000"
+    DEV_USERS = ['656059661','828161590','1413280026','1364522295','1752262486', '914472877', '1762983034', '875470398']
     SUDO_USERS = []
     WHITELIST_USERS = []
-    DB_URI = "postgres://username:password@postgresdb:5432/database_name"
-    DB_NAME = "alita_robot"
+    DB_URI = "postgres://bsggsvpv:laXoYgpu80iAkiTqt9cv8lgUrejwyufj@queenie.db.elephantsql.com/bsggsvpv"
+    DB_NAME = "bsggsvpv"
     NO_LOAD = []
     PREFIX_HANDLER = ["!", "/"]
-    SUPPORT_GROUP = "SUPPORT_GROUP"
-    SUPPORT_CHANNEL = "SUPPORT_CHANNEL"
-    ENABLED_LOCALES = ["ENABLED_LOCALES"]
+    SUPPORT_GROUP = "TedezaSupportChat"
+    SUPPORT_CHANNEL = "Tedeza_news"
+    ENABLED_LOCALES = "ENABLED_LOCALES"
     VERSION = "VERSION"
+    DEV_PREFIX_HANDLER = ">"
     WORKERS = 8
-    LOG_CHANNEL = -100
